@@ -1,0 +1,18 @@
+{
+  "name": "web-crawler-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.0"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "prod": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
